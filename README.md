@@ -54,4 +54,4 @@ Just run the bash script:
 autoreply
 ```
 
-If you want it to be bot, then you can run it via a `cron` job.
+If you want it to be a bot, then run it via a `cron` job.
