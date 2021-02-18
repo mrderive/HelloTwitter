@@ -45,7 +45,7 @@ Seed a tweet id into a file called `lastids.log`. For example:
 ```
 echo 1362460946929696777 >>lastids.log
 ```
-Note: This id has to be within the last 7 days worth of ids from the target account. The easiest way to get such an id is to manually pull up the last tweet using your browser, and copy the number part of the URL.
+Note: This id has to be within the last 7 days worth of ids from the target account. The easiest way to get such an id is to manually pull up the last tweet using your browser, copy the number part of the URL, and subtract 1.
 
 ## Usage
 
