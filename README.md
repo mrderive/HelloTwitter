@@ -15,11 +15,11 @@ You should now have `/usr/bin/urlencode`.
 
 Note: This package is probably overkill just to have the `urlencode` tool. You may instead just want to code your own bash function or copy it from a stackoverflow thread or something.
 
-Clone or download `autoreply`.
+Clone or download `hellotwitter`.
 
 ## Configuration
 
-Edit the `autoreply` script using `vim` or your preferred editor
+Edit the `hellotwitter` script using `vim` or your preferred editor
 
 Fill in the username handle of the twitter account that you want to monitor, as well as the autoreply message:
 ```
@@ -51,7 +51,7 @@ Note: This id has to be within the last 7 days worth of ids from the target acco
 
 Just run the bash script:
 ```
-autoreply
+hellotwitter
 ```
 
 If you want it to be a bot, then run it via a `cron` job.
