@@ -39,7 +39,7 @@ oauth_consumer_secret=''
 oauth_token=''
 oauth_token_secret=''
 ```
-If you do not know what this means, start with first creating a [developer account](https://developer.twitter.com/en/docs/developer-portal/overview). Then create a server side [app](https://developer.twitter.com/en/docs/apps/app-management). Then grant [Read and Write permissions](https://developer.twitter.com/en/docs/apps/app-permissions) and then generate all the oauth stuff. All of this should be done via the [Developer Portal](https://developer.twitter.com/en/portal/dashboard).
+If you do not know what this means, start with first creating a [developer account](https://developer.twitter.com/en/docs/developer-portal/overview). Then create a server side [app](https://developer.twitter.com/en/docs/apps/app-management). Then grant [Read and Write permissions](https://developer.twitter.com/en/docs/apps/app-permissions). Then generate all the oauth stuff. All of this should be done via the [Developer Portal](https://developer.twitter.com/en/portal/dashboard).
 
 Seed a tweet id into a file called `lastids.log`. For example:
 ```
