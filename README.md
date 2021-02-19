@@ -21,7 +21,7 @@ Clone or download `hellotwitter`.
 
 Edit the `hellotwitter` script using `vim` or your preferred editor.
 
-Fill in the username handle of the twitter account that you want to monitor, as well as the autoreply message:
+Fill in the username handle (without the "@") of the twitter account that you want to monitor, as well as the autoreply message:
 ```
 # ============================================================================================================
 # YOU need to fill out the target twitter account and your auto-reply message
