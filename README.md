@@ -19,7 +19,7 @@ Clone or download `hellotwitter`.
 
 ## Configuration
 
-Edit the `hellotwitter` script using `vim` or your preferred editor
+Edit the `hellotwitter` script using `vim` or your preferred editor.
 
 Fill in the username handle of the twitter account that you want to monitor, as well as the autoreply message:
 ```
