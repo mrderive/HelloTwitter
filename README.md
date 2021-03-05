@@ -1,6 +1,6 @@
 # HelloTwitter
 
-A hello world implementation to build a Twitter bot that monitors one account and sends an autoreply to every tweet and retweet.
+A hello world implementation of a Twitter bot that monitors one account and sends an autoreply to every tweet and retweet.
 
 ## Installation
 
