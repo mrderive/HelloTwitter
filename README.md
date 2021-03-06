@@ -41,11 +41,11 @@ oauth_token_secret=''
 ```
 If you do not know what this means, start with first creating a [developer account](https://developer.twitter.com/en/docs/developer-portal/overview). Then create a server side [app](https://developer.twitter.com/en/docs/apps/app-management). Then grant [Read and Write permissions](https://developer.twitter.com/en/docs/apps/app-permissions). Then generate all the oauth stuff. All of this should be done via the [Developer Portal](https://developer.twitter.com/en/portal/dashboard).
 
-Seed a tweet id into a file called `lastids.log`. For example:
+Seed a tweet ID into a file called `lastids.log`. For example:
 ```
 echo 1362460946929696777 >>lastids.log
 ```
-Note: This id has to be within the last 7 days worth of ids from the target account. The easiest way to get such an id is to manually pull up the last tweet using your browser, copy the number part of the URL, and subtract 1.
+Note: This ID has to be within the last 7 days worth of ID's from the target account. The easiest way to get such an ID is to manually pull up the last tweet using your browser, copy the number part of the URL, and subtract 1.
 
 ## Usage
 
