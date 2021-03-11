@@ -13,7 +13,7 @@ sudo apt-get install gridsite-clients
 ```
 You should now have `/usr/bin/urlencode`.
 
-Note: This package is probably overkill just to have the `urlencode` tool. You may instead just want to code your own bash function or copy it from a stackoverflow thread or something.
+Note: This package is probably overkill just to have the `urlencode` tool. You may instead just want to code your own Bash function or copy it from a stackoverflow thread or something.
 
 Clone or download `hellotwitter`.
 
