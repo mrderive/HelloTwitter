@@ -9,7 +9,7 @@ You should now have `/usr/bin/jq`.
 
 Clone or download `urlencode` into your `/usr/local/bin` and give execute permissions:
 ```
-sudo mv urlencode /usr/local/bin/urlencode
+sudo mv urlencode /usr/local/bin
 sudo chmod u+x /usr/local/bin/urlencode
 ```
 
