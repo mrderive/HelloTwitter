@@ -7,15 +7,16 @@ A hello world implementation of a Twitter bot that monitors one account and send
 Install [jq](https://stedolan.github.io/jq/download/).
 You should now have `/usr/bin/jq`.
 
-Install [GridSite](http://gridsite.org/wiki/Build_and_Install_Guide/). On Ubuntu (and probably on other Linux distros), there is already a precompiled package that can be installed by:
+Clone or download `urlencode` into your `/usr/local/bin` and give execute permissions:
 ```
-sudo apt-get install gridsite-clients
+sudo mv urlencode /usr/local/bin/urlencode
+sudo chmod u+x /usr/local/bin/urlencode
 ```
-You should now have `/usr/bin/urlencode`.
 
-Note: This package is probably overkill just to have the `urlencode` tool. You may instead just want to code your own Bash function or copy it from a stackoverflow thread or something.
-
-Clone or download `hellotwitter`.
+Clone or download `hellotwitter` and give execute permissions:
+```
+sudo chmod u+x hellotwitter
+```
 
 ## Configuration
 
@@ -51,7 +52,7 @@ Note: This ID has to be within the last 7 days worth of ID's from the target acc
 
 Just run the bash script:
 ```
-hellotwitter
+./hellotwitter
 ```
 
 If you want it to be a bot, then run it via a `cron` job.
