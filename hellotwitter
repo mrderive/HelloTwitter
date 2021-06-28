@@ -51,7 +51,7 @@ for v in $list; do
 
     base_string='POST&'`urlencode $url`'&'`urlencode in_reply_to_status_id=$data2\&$params_anded\&status=$data1` #alphebetical order!!!
 
-    oauth_signature=`echo -n $base_string | openssl sha1 -hmac $signature_key -binary | openssl base64`
+    oauth_signature=`echo -n $base_string | openssl sha1 -hmac $signature_key -binary | base64`
     oauth_signature=`urlencode $oauth_signature`
 
     curl -X POST $url -H "Authorization: OAuth $params,oauth_signature=$oauth_signature" -H "Content-Type: application/x-www-form-urlencoded" --data "status=$data1&in_reply_to_status_id=$data2"
